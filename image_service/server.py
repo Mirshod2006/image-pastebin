@@ -3,9 +3,8 @@ from concurrent import futures
 
 import grpc
 from PIL import Image, ImageDraw, ImageFont
-
-from . import image_pb2
-from . import image_pb2_grpc
+import image_pb2
+import image_pb2_grpc
 
 IMAGES_DIR = "/images"
 
